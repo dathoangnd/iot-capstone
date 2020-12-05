@@ -65,7 +65,8 @@ def main():
             detect_data = {
                 'type': session_type,
                 'time': session_time,
-                'number': plate_number
+                'number': plate_number,
+                'image': image_str
             }
             print(detect_data)
             # url = 'http://localhost:5000'
